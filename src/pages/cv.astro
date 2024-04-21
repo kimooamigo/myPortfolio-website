@@ -1,0 +1,89 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import TimeLineElement from "../components/cv/TimeLine.astro";
+---
+
+<BaseLayout title="Resume" sideBarActiveItemID="cv">
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Profile</div>
+  </div>
+
+  <div class="mb-10 text-justify">
+    Dynamic and results-oriented Front-End Developer with a passion for crafting immersive digital experiences. Proficient in modern web technologies including HTML, CSS, JavaScript, and various frameworks such as React and Angular. Skilled in translating design concepts into responsive and user-friendly interfaces. Proven ability to collaborate effectively in multidisciplinary teams to deliver high-quality projects on time and within budget. Committed to staying updated with industry trends and continuously refining skills to drive innovation and exceed expectations.
+  </div>
+
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Education</div>
+  </div>
+
+  <div class="time-line-container grid gap-4 mb-10">
+    <TimeLineElement
+      title="Bachelor of Science in Computer Science"
+      subtitle="2018 to 2022 at University of Science and Technology, New York City, USA"
+    />
+    <TimeLineElement
+      title="Front-End Web Development Certification"
+      subtitle="2020 to 2024 at Codecademy, Online"
+    />
+  </div>
+
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Experience</div>
+  </div>
+
+  <div class="time-line-container mb-10">
+    <TimeLineElement
+      title="Front-End Developer at ABC Tech Solutions"
+      subtitle="From 2020 to 2022 at ABC Tech Solutions, San Francisco, USA"
+    >
+    Developed responsive and user-friendly web applications using HTML, CSS, and JavaScript. Collaborated with cross-functional teams to implement innovative features and enhance user experience. Contributed to the optimization of website performance and SEO strategies, resulting in increased traffic and engagement.
+    </TimeLineElement>
+    <TimeLineElement
+      title="UI/UX Designer at XYZ Design Studio"
+      subtitle="From 2022 to 2023 at XYZ Design Studio, London, UK"
+    >
+    Led the design and development of visually stunning interfaces for various clients. Utilized industry-standard tools such as Adobe XD and Sketch to create wireframes and mockups. Worked closely with clients to understand their requirements and deliver tailor-made solutions that exceeded expectations.
+    </TimeLineElement>
+    <TimeLineElement
+      title="Front-End Developer Intern at QRS Web Solutions"
+      subtitle="From 2023 to 2024 at QRS Web Solutions, Sydney, Australia"
+    >
+    Assisted in the development of front-end components for client projects. Gained hands-on experience in working with frameworks such as React and Angular. Collaborated with senior developers to troubleshoot issues and implement best practices in web development.
+    </TimeLineElement>
+  </div>
+
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Certifications</div>
+  </div>
+
+  <ul class="list-disc mx-6 mb-10 grid gap-2">
+    <li>
+      <a href="#" target="_blank"> Front-End Web Development Certification</a>
+    </li>
+    <li>
+      <a href="#" target="_blank"> Responsive Web Design Certification</a>
+    </li>
+  </ul>
+
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Skills</div>
+  </div>
+
+  <ul class="list-disc md:columns-5 columns-2 mx-6">
+    <li>HTML5</li>
+    <li>CSS3</li>
+    <li>JavaScript</li>
+    <li>Astro</li>
+    <li>React.js</li>
+    <li>Angular</li>
+    <li>Bootstrap</li>
+    <li>Tailwind CSS</li>
+    <li>Responsive Web Design</li>
+    <li>UI/UX Design Principles</li>
+    <li>Version Control (Git)</li>
+    <li>Web Accessibility</li>
+    <li>SEO Optimization</li>
+    <li>Performance Optimization</li>
+    <li>Cross-Browser Compatibility</li>
+  </ul>
+</BaseLayout>

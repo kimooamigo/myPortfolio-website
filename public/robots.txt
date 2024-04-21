@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://kemooamegoo.great-site.net/sitemap-index.xml
